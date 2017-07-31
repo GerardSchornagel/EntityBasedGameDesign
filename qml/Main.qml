@@ -33,20 +33,6 @@ GameWindow {
         }
 
         EntityBase {
-            entityId: "box1"
-            entityType: "box"
-
-            Image {
-                id: boxImage
-                source: "../assets/img/box.png"
-                width: 32
-                height: 32
-            }
-            BoxCollider {
-                anchors.fill: boxImage
-            }
-        }
-        EntityBase {
             entityId: "ground1"
             entityType: "ground"
             height: 20
@@ -63,6 +49,43 @@ GameWindow {
             BoxCollider {
                 anchors.fill: parent
                 bodyType: Body.Static // the body shouldn't move
+            }
+        }
+
+        EntityBase {
+            entityId: "box1"
+            entityType: "box"
+            x: scene.width/2
+
+            Image {
+                id: boxImage
+                source: "../assets/img/box.png"
+                anchors.fill: boxCollider
+            }
+
+            BoxCollider {
+                id: boxCollider
+                width: 32
+                height: 32
+                anchors.centerIn: parent
+
+                fixture.onBeginContact: {
+                    // when colliding with another entity, play the sound and start particleEffect
+                    collisionSound.play();
+                    collisionParticleEffect.start();
+                }
+            }
+
+            // the soundEffect is played at a collision
+            SoundEffectVPlay {
+                id: collisionSound
+                source: "../assets/snd/boxCollision.wav"
+            }
+
+            // the ParticleEffect is started at a collision
+            ParticleVPlay {
+                id: collisionParticleEffect
+                fileName: "SmokeParticle.json"
             }
         }
     }
