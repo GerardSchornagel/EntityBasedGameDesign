@@ -1,0 +1,40 @@
+MetaInfo {
+    Type {
+        name: "VPlay.PathMovement"
+        icon: ":/qtquickplugin/images/item-icon16.png"
+
+        ItemLibraryEntry {
+            name: "PathMovement"
+            category: "V-Play Game AI"
+            libraryIcon: ":/qtquickplugin/images/item-icon.png"
+            version: "2.0"
+            requiredImport: "VPlay"
+        }
+    }
+
+    Type {
+        name: "VPlay.MoveToPointHelper"
+        icon: ":/qtquickplugin/images/item-icon16.png"
+
+        ItemLibraryEntry {
+            name: "MoveToPointHelper"
+            category: "V-Play Game AI"
+            libraryIcon: ":/qtquickplugin/images/item-icon.png"
+            version: "2.0"
+            requiredImport: "VPlay"
+        }
+    }
+
+    Type {
+        name: "VPlay.MovementAnimation"
+        icon: ":/qtquickplugin/images/item-icon16.png"
+
+        ItemLibraryEntry {
+            name: "MovementAnimation"
+            category: "V-Play Game AI"
+            libraryIcon: ":/qtquickplugin/images/item-icon.png"
+            version: "2.0"
+            requiredImport: "VPlay"
+        }
+    }
+}

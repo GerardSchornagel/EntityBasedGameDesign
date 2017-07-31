@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\libs\QtAndroid-bundled.jar"
+        jumboMode="false"
+        revision="26.0.0"
+        sha1="39c89e9accbc6964314590d25dd7ef16d6278da7">
+        <dex dex="C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\build\intermediates\pre-dexed\debug\QtAndroid-bundled_338684224737c6c70ecbb5ebd041c7f6e8262b23.jar" />
+    </item>
+    <item
+        jar="C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\libs\QtAndroidBearer-bundled.jar"
+        jumboMode="false"
+        revision="26.0.0"
+        sha1="9ab1f1638d6cb26066cb7a1313a439bb7d21db24">
+        <dex dex="C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\build\intermediates\pre-dexed\debug\QtAndroidBearer-bundled_7119fd4bb091629799a952f2354bcf9f648b497c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\libs\VPlay.jar"
+        jumboMode="false"
+        revision="26.0.0"
+        sha1="1aab992eb0f45ab865883f9d6b03229657277a4b">
+        <dex dex="C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\build\intermediates\pre-dexed\debug\VPlay_5696193155c486126ada85216c3de6d57ffc07d8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\libs\QtMultimedia-bundled.jar"
+        jumboMode="false"
+        revision="26.0.0"
+        sha1="a5fc0583b5553def4cfc01757a2271391ecb1297">
+        <dex dex="C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\build\intermediates\pre-dexed\debug\QtMultimedia-bundled_eec3be90116fc35075feab5dacadb8609dcf7b46.jar" />
+    </item>
+    <item
+        jar="C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\libs\QtPositioning-bundled.jar"
+        jumboMode="false"
+        revision="26.0.0"
+        sha1="8fddaeacc66b468bde242c3d93b0e8c26c0c38bb">
+        <dex dex="C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\build\intermediates\pre-dexed\debug\QtPositioning-bundled_160cfd131c6be35c677ef3b1d86aa4a4c471e18f.jar" />
+    </item>
+
+</items>

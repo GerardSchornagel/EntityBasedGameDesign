@@ -1,0 +1,27 @@
+MetaInfo {
+    Type {
+        name: "VPlay.Storage"
+        icon: ":/qtquickplugin/images/item-icon16.png"
+
+        ItemLibraryEntry {
+            name: "Storage"
+            category: "V-Play Utility"
+            libraryIcon: ":/qtquickplugin/images/item-icon.png"
+            version: "2.0"
+            requiredImport: "VPlay"
+        }
+    }
+
+    Type {
+        name: "VPlay.WebStorage"
+        icon: ":/qtquickplugin/images/item-icon16.png"
+
+        ItemLibraryEntry {
+            name: "WebStorage"
+            category: "V-Play Utility"
+            libraryIcon: ":/qtquickplugin/images/item-icon.png"
+            version: "2.0"
+            requiredImport: "VPlay"
+        }
+    }
+}

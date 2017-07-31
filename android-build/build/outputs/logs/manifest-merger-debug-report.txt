@@ -1,0 +1,225 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:2:1-73:12
+	package
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:2:11-62
+		INJECTED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml
+		INJECTED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:2:122-147
+		INJECTED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml
+		INJECTED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:2:148-171
+		INJECTED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml
+		INJECTED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:2:63-121
+	android:installLocation
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:2:172-202
+application
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:3:5-52:19
+	android:label
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:3:102-134
+	android:hardwareAccelerated
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:3:18-52
+	android:icon
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:3:135-171
+	android:theme
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:3:172-230
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:3:53-101
+activity#net.vplay.helper.VPlayActivity
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:4:9-51:20
+	android:screenOrientation
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:7:19-56
+	android:label
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:6:19-51
+	android:launchMode
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:8:19-49
+	android:configChanges
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:4:19-172
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:5:19-64
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:9:13-12:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:10:17-68
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:10:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:11:17-76
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:11:27-74
+meta-data#android.app.lib_name
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:13:13-99
+	android:value
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:13:60-97
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:13:24-59
+meta-data#android.app.qt_sources_resource_id
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:14:13-112
+	android:resource
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:14:74-110
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:14:24-73
+meta-data#android.app.repository
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:15:13-87
+	android:value
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:15:62-85
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:15:24-61
+meta-data#android.app.qt_libs_resource_id
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:16:13-106
+	android:resource
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:16:71-104
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:16:24-70
+meta-data#android.app.bundled_libs_resource_id
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:17:13-116
+	android:resource
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:17:76-114
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:17:24-75
+meta-data#android.app.bundle_local_qt_libs
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:19:13-91
+	android:value
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:19:72-89
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:19:24-71
+meta-data#android.app.bundled_in_lib_resource_id
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:20:13-120
+	android:resource
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:20:78-118
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:20:24-77
+meta-data#android.app.bundled_in_assets_resource_id
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:21:13-126
+	android:resource
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:21:81-124
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:21:24-80
+meta-data#android.app.use_local_qt_libs
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:23:13-88
+	android:value
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:23:69-86
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:23:24-68
+meta-data#android.app.libs_prefix
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:24:13-100
+	android:value
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:24:63-98
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:24:24-62
+meta-data#android.app.load_local_libs
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:25:13-309
+	android:value
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:25:67-307
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:25:24-66
+meta-data#android.app.load_local_jars
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:26:13-314
+	android:value
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:26:67-312
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:26:24-66
+meta-data#android.app.static_init_classes
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:27:13-302
+	android:value
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:27:71-300
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:27:24-70
+meta-data#android.app.ministro_not_found_msg
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:29:13-122
+	android:value
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:29:24-70
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:29:71-120
+meta-data#android.app.ministro_needed_msg
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:30:13-116
+	android:value
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:30:24-67
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:30:68-114
+meta-data#android.app.fatal_error_msg
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:31:13-108
+	android:value
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:31:24-63
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:31:64-106
+meta-data#android.app.background_running
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:45:13-93
+	android:value
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:45:70-91
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:45:24-69
+meta-data#android.app.auto_screen_scale_factor
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:49:13-99
+	android:value
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:49:76-97
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:49:24-75
+uses-sdk
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:53:5-73
+	android:targetSdkVersion
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:53:42-71
+	android:minSdkVersion
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:53:15-41
+supports-screens
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:54:5-135
+	android:largeScreens
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:54:23-50
+	android:smallScreens
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:54:106-133
+	android:normalScreens
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:54:51-79
+	android:anyDensity
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:54:80-105
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:58:9-71
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:58:26-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:59:5-81
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:59:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:60:5-79
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:60:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:61:5-79
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:61:22-76
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:62:5-65
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:62:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:63:5-71
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:63:22-68
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:68:9-89
+	android:required
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:68:62-86
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:68:23-61
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:69:5-95
+	android:required
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:69:68-92
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:69:19-67
+uses-feature#android.hardware.microphone
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:70:5-89
+	android:required
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:70:62-86
+	android:name
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:70:19-61
+uses-feature#0x00020000
+ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:71:5-78
+	android:glEsVersion
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:71:19-51
+	android:required
+		ADDED from C:\Users\Gerard\Dropbox\Qt\EntityBasedGameDesign\android-build\AndroidManifest.xml:71:52-75
