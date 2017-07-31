@@ -18,7 +18,7 @@ GameWindow {
         PhysicsWorld {
             id: world
             // physics is disabled initially, and enabled after the splash is finished
-            running: true
+            running: false
             gravity.y: 9.81
             z: 10 // draw the debugDraw on top of the entities
 
@@ -44,6 +44,25 @@ GameWindow {
             }
             BoxCollider {
                 anchors.fill: boxImage
+            }
+        }
+        EntityBase {
+            entityId: "ground1"
+            entityType: "ground"
+            height: 20
+            anchors {
+                bottom: scene.bottom
+                left: scene.left
+                right: scene.right
+            }
+
+            Rectangle {
+                anchors.fill: parent
+                color: "blue"
+            }
+            BoxCollider {
+                anchors.fill: parent
+                bodyType: Body.Static // the body shouldn't move
             }
         }
     }
