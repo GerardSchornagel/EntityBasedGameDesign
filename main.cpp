@@ -1,8 +1,6 @@
-#include <QApplication>
 #include <VPApplication>
-
+#include <QApplication>
 #include <QQmlApplicationEngine>
-
 
 int main(int argc, char *argv[])
 {
@@ -16,14 +14,14 @@ int main(int argc, char *argv[])
     QQmlApplicationEngine engine;
     vplay.initialize(&engine);
 
-    // use this during development
-    // for PUBLISHING, use the entry point below
+    // use this instead of the below call for faster deployment on desktop when you comment the RESOURCES in the .pro file (this avoids compiling all your resources into the binary and has shorter compile times; also it allows re-running the same project in non-shadow builds)
+    // this is the preferred deployment option during development on Desktop (for deployment on mobile use the qrc approach below)
     vplay.setMainQmlFileName(QStringLiteral("qml/Main.qml"));
 
     // use this instead of the above call to avoid deployment of the qml files and compile them into the binary with qt's resource system qrc
-    // this is the preferred deployment option for publishing games to the app stores, because then your qml files and js files are protected
+    // this is the preferred deployment option for debug and release builds on mobile, and for publish builds on all platforms
     // to avoid deployment of your qml files and images, also comment the DEPLOYMENTFOLDERS command in the .pro file
-    // also see the .pro file for more details
+    // only use the above non-qrc approach, during development on desktop
     //  vplay.setMainQmlFileName(QStringLiteral("qrc:/qml/Main.qml"));
 
     engine.load(QUrl(vplay.mainQmlFileName()));
